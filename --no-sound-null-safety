@@ -1,0 +1,182 @@
+!! ⚠️ PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING ⚠️ !!
+Dart Code extension: 3.78.0
+Flutter extension: 3.78.0 (not activated)
+
+App: Visual Studio Code
+App Host: desktop
+Version: mac 1.81.0
+
+
+Logging Categories:
+    FlutterDaemon
+
+Tue Dec 12 2023 [22:57:00 GMT+0800 (Malaysia Time)] Log file started
+[22:57:00] [FlutterDaemon] [Info] Spawning /Users/mytaxpmo/development/flutter/bin/flutter with args ["daemon"]
+[22:57:00] [FlutterDaemon] [Info] ..  in /Users/mytaxpmo/development/flutter
+[22:57:00] [FlutterDaemon] [Info] ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code","FLUTTER_ROOT":"/Users/mytaxpmo/development/flutter"}}
+[22:57:00] [FlutterDaemon] [Info]     PID: 34222
+[22:57:00] [FlutterDaemon] [Info] ==> [{"id":"1","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[22:57:05] [FlutterDaemon] [Info] <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":34241}}]
+[22:57:05] [FlutterDaemon] [Info] ==> [{"id":"2","method":"device.enable"}]
+[22:57:05] [FlutterDaemon] [Info] ==> [{"id":"3","method":"emulator.getEmulators"}]
+[22:57:05] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"status","message":"A new version of Flutter is available!\n\nTo update to the latest version, run \"flutter upgrade\"."}}]
+[22:57:05] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"status","message":"Starting device daemon..."}}]
+[22:57:05] [FlutterDaemon] [Info] <== [{"id":"1","result":{"platforms":[]}}]
+[22:57:05] [FlutterDaemon] [Info] <== [{"id":"2"}]
+[22:57:05] [FlutterDaemon] [Info] <== [{"id":"3","result":[{"id":"apple_ios_simulator","name":"iOS Simulator","category":"mobile","platformType":"ios"}]}]
+[22:57:09] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"macos","name":"macOS","platform":"darwin","emulator":false,"category":"desktop","platformType":"macos","ephemeral":false,"emulatorId":null,"sdk":"macOS 13.4 22F66 darwin-arm64","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[22:57:10] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"chrome","name":"Chrome","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null,"sdk":"Google Chrome 120.0.6099.71","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":false,"hardwareRendering":true,"startPaused":true}}}]
+[22:57:10] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"15865E39-D42D-4B06-BDD7-6C34C4ED80BF","name":"iPad Pro (12.9-inch) (5th generation)","platform":"ios","emulator":true,"category":"mobile","platformType":"ios","ephemeral":true,"emulatorId":"apple_ios_simulator","sdk":"com.apple.CoreSimulator.SimRuntime.iOS-15-5","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":false,"flutterExit":true,"hardwareRendering":false,"startPaused":true}}}]
+[22:57:27] [FlutterDaemon] [Info] <== [{"event":"device.removed","params":{"id":"15865E39-D42D-4B06-BDD7-6C34C4ED80BF","name":"iPad Pro (12.9-inch) (5th generation)","platform":"ios","emulator":true,"category":"mobile","platformType":"ios","ephemeral":true,"emulatorId":"apple_ios_simulator","sdk":"com.apple.CoreSimulator.SimRuntime.iOS-15-5","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":false,"flutterExit":true,"hardwareRendering":false,"startPaused":true}}}]
+[22:57:27] [FlutterDaemon] [Info] ==> [{"id":"4","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[22:57:27] [FlutterDaemon] [Info] <== [{"id":"4","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[23:49:46] [FlutterDaemon] [Info] ==> [{"id":"5","method":"emulator.getEmulators"}]
+[23:49:46] [FlutterDaemon] [Info] <== [{"id":"5","result":[{"id":"apple_ios_simulator","name":"iOS Simulator","category":"mobile","platformType":"ios"}]}]
+[23:49:47] [FlutterDaemon] [Info] ==> [{"id":"6","method":"emulator.launch","params":{"emulatorId":"apple_ios_simulator","coldBoot":false}}]
+[23:49:47] [FlutterDaemon] [Info] <== [{"id":"6"}]
+[23:49:51] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"15865E39-D42D-4B06-BDD7-6C34C4ED80BF","name":"iPad Pro (12.9-inch) (5th generation)","platform":"ios","emulator":true,"category":"mobile","platformType":"ios","ephemeral":true,"emulatorId":"apple_ios_simulator","sdk":"com.apple.CoreSimulator.SimRuntime.iOS-15-5","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":false,"flutterExit":true,"hardwareRendering":false,"startPaused":true}}}]
+[23:49:51] [FlutterDaemon] [Info] ==> [{"id":"7","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[23:49:51] [FlutterDaemon] [Info] <== [{"id":"7","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[23:49:55] [FlutterDaemon] [Info] <== [{"event":"device.removed","params":{"id":"15865E39-D42D-4B06-BDD7-6C34C4ED80BF","name":"iPad Pro (12.9-inch) (5th generation)","platform":"ios","emulator":true,"category":"mobile","platformType":"ios","ephemeral":true,"emulatorId":"apple_ios_simulator","sdk":"com.apple.CoreSimulator.SimRuntime.iOS-15-5","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":false,"flutterExit":true,"hardwareRendering":false,"startPaused":true}}}]
+[23:50:10] [FlutterDaemon] [Info] ==> [{"id":"8","method":"emulator.getEmulators"}]
+[23:50:10] [FlutterDaemon] [Info] <== [{"id":"8","result":[{"id":"apple_ios_simulator","name":"iOS Simulator","category":"mobile","platformType":"ios"}]}]
+[23:50:11] [FlutterDaemon] [Info] ==> [{"id":"9","method":"emulator.launch","params":{"emulatorId":"apple_ios_simulator","coldBoot":false}}]
+[23:50:11] [FlutterDaemon] [Info] <== [{"id":"9"}]
+[23:50:11] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"error","message":"The application /Users/mytaxpmo/Downloads/Xcode.app/Contents/Developer/Applications/Simulator.app cannot be opened for an unexpected reason, error=Error Domain=NSOSStatusErrorDomain Code=-600 \"procNotFound: no eligible process with specified descriptor\" UserInfo={_LSLine=388, _LSFunction=_LSAnnotateAndSendAppleEventWithOptions}"}}]
+[23:50:17] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"15865E39-D42D-4B06-BDD7-6C34C4ED80BF","name":"iPad Pro (12.9-inch) (5th generation)","platform":"ios","emulator":true,"category":"mobile","platformType":"ios","ephemeral":true,"emulatorId":"apple_ios_simulator","sdk":"com.apple.CoreSimulator.SimRuntime.iOS-15-5","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":false,"flutterExit":true,"hardwareRendering":false,"startPaused":true}}}]
+[23:50:17] [FlutterDaemon] [Info] ==> [{"id":"10","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[23:50:17] [FlutterDaemon] [Info] <== [{"id":"10","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[23:50:26] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"8F966264-D7DF-4CE8-8757-EA2512C88654","name":"iPhone 13 Pro Max","platform":"ios","emulator":true,"category":"mobile","platformType":"ios","ephemeral":true,"emulatorId":"apple_ios_simulator","sdk":"com.apple.CoreSimulator.SimRuntime.iOS-15-5","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":false,"flutterExit":true,"hardwareRendering":false,"startPaused":true}}}]
+[23:50:26] [FlutterDaemon] [Info] <== [{"event":"device.removed","params":{"id":"15865E39-D42D-4B06-BDD7-6C34C4ED80BF","name":"iPad Pro (12.9-inch) (5th generation)","platform":"ios","emulator":true,"category":"mobile","platformType":"ios","ephemeral":true,"emulatorId":"apple_ios_simulator","sdk":"com.apple.CoreSimulator.SimRuntime.iOS-15-5","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":false,"flutterExit":true,"hardwareRendering":false,"startPaused":true}}}]
+[23:50:46] [FlutterDaemon] [Info] ==> [{"id":"11","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[23:50:46] [FlutterDaemon] [Info] <== [{"id":"11","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[23:50:46] [FlutterDaemon] [Info] ==> [{"id":"12","method":"emulator.getEmulators"}]
+[23:50:46] [FlutterDaemon] [Info] <== [{"id":"12","result":[{"id":"apple_ios_simulator","name":"iOS Simulator","category":"mobile","platformType":"ios"}]}]
+[23:50:53] [FlutterDaemon] [Info] ==> [{"id":"13","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[23:50:53] [FlutterDaemon] [Info] <== [{"id":"13","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[23:50:53] [FlutterDaemon] [Info] ==> [{"id":"14","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[23:50:53] [FlutterDaemon] [Info] <== [{"id":"14","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[09:36:59] [FlutterDaemon] [Info] ==> [{"id":"15","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[09:36:59] [FlutterDaemon] [Info] <== [{"id":"15","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[09:36:59] [FlutterDaemon] [Info] ==> [{"id":"16","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[09:36:59] [FlutterDaemon] [Info] <== [{"id":"16","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[11:32:23] [General] [Error] Canceled
+Canceled: Canceled
+    at r.Q (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:908:38627)
+    at vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:908:38554
+[11:32:35] [FlutterDaemon] [Info] ==> [{"id":"17","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[11:32:35] [FlutterDaemon] [Info] <== [{"id":"17","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[11:32:35] [FlutterDaemon] [Info] ==> [{"id":"18","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[11:32:35] [FlutterDaemon] [Info] <== [{"id":"18","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[14:20:07] [FlutterDaemon] [Info] ==> [{"id":"19","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[14:20:07] [FlutterDaemon] [Info] <== [{"id":"19","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[14:20:07] [FlutterDaemon] [Info] ==> [{"id":"20","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[14:20:07] [FlutterDaemon] [Info] <== [{"id":"20","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[15:41:44] [FlutterDaemon] [Info] ==> [{"id":"21","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[15:41:44] [FlutterDaemon] [Info] <== [{"id":"21","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[15:41:44] [FlutterDaemon] [Info] ==> [{"id":"22","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[15:41:44] [FlutterDaemon] [Info] <== [{"id":"22","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[16:29:12] [FlutterDaemon] [Info] ==> [{"id":"23","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[16:29:12] [FlutterDaemon] [Info] <== [{"id":"23","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[16:29:12] [FlutterDaemon] [Info] ==> [{"id":"24","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[16:29:12] [FlutterDaemon] [Info] <== [{"id":"24","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[16:34:32] [FlutterDaemon] [Info] ==> [{"id":"25","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[16:34:32] [FlutterDaemon] [Info] <== [{"id":"25","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[16:34:32] [FlutterDaemon] [Info] ==> [{"id":"26","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[16:34:32] [FlutterDaemon] [Info] <== [{"id":"26","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[17:22:27] [FlutterRun] [Error] [Flutter (iPhone 13 Pro Max)] lib/screen/formPage.dart:21:34: Error: Method not found: 'API'.
+[17:22:27] [FlutterRun] [Error] [Flutter (iPhone 13 Pro Max)]         await http.get(Uri.parse(API().getLocationState), headers: headers);
+                                 ^^^
+[17:22:27] [FlutterRun] [Error] [Flutter (iPhone 13 Pro Max)] lib/screen/formPage.dart:21:15: Error: Undefined name 'http'.
+[17:22:27] [FlutterRun] [Error] [Flutter (iPhone 13 Pro Max)]         await http.get(Uri.parse(API().getLocationState), headers: headers);
+              ^^^^
+[17:22:27] [FlutterRun] [Error] [Flutter (iPhone 13 Pro Max)] lib/screen/formPage.dart:22:18: Error: Method not found: 'jsonDecode'.
+[17:22:27] [FlutterRun] [Error] [Flutter (iPhone 13 Pro Max)]     final data = jsonDecode(response.body);
+                 ^^^^^^^^^^
+[17:22:27] [FlutterRun] [Error] [Flutter (iPhone 13 Pro Max)] lib/screen/formPage.dart:23:5: Error: Method not found: 'log'.
+[17:22:27] [FlutterRun] [Error] [Flutter (iPhone 13 Pro Max)]     log("locationState :" + data.toString());
+    ^^^
+[17:22:27] [FlutterRun] [Error] [Flutter (iPhone 13 Pro Max)] lib/screen/formPage.dart:24:5: Error: Setter not found: '_list'.
+[17:22:27] [FlutterRun] [Error] [Flutter (iPhone 13 Pro Max)]     _list = data;
+    ^^^^^
+lib/screen/formPage.dart:25:30: Error: Undefined name '_list'.
+    log("locationStates :" + _list.toString());
+                             ^^^^^
+[17:22:27] [FlutterRun] [Error] [Flutter (iPhone 13 Pro Max)] lib/screen/formPage.dart:25:5: Error: Method not found: 'log'.
+[17:22:27] [FlutterRun] [Error] [Flutter (iPhone 13 Pro Max)]     log("locationStates :" + _list.toString());
+    ^^^
+[17:23:02] [FlutterRun] [Error] [Flutter (iPhone 13 Pro Max)] lib/screen/formPage.dart:22:34: Error: Method not found: 'API'.
+[17:23:02] [FlutterRun] [Error] [Flutter (iPhone 13 Pro Max)]         await http.get(Uri.parse(API().getLocationState), headers: headers);
+                                 ^^^
+lib/screen/formPage.dart:23:18: Error: Method not found: 'jsonDecode'.
+    final data = jsonDecode(response.body);
+                 ^^^^^^^^^^
+lib/screen/formPage.dart:24:5: Error: Method not found: 'log'.
+    log("locationState :" + data.toString());
+    ^^^
+lib/screen/formPage.dart:25:5: Error: Setter not found: '_list'.
+    _list = data;
+[17:23:02] [FlutterRun] [Error] [Flutter (iPhone 13 Pro Max)]     ^^^^^
+lib/screen/formPage.dart:26:30: Error: Undefined name '_list'.
+    log("locationStates :" + _list.toString());
+                             ^^^^^
+[17:23:02] [FlutterRun] [Error] [Flutter (iPhone 13 Pro Max)] lib/screen/formPage.dart:26:5: Error: Method not found: 'log'.
+[17:23:02] [FlutterRun] [Error] [Flutter (iPhone 13 Pro Max)]     log("locationStates :" + _list.toString());
+    ^^^
+[09:14:29] [FlutterDaemon] [Info] ==> [{"id":"27","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[09:14:29] [FlutterDaemon] [Info] <== [{"id":"27","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[09:14:29] [FlutterDaemon] [Info] ==> [{"id":"28","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[09:14:29] [FlutterDaemon] [Info] <== [{"id":"28","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[11:30:53] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"8f1f9170","name":"M2101K6G","platform":"android-arm64","emulator":false,"category":"mobile","platformType":"android","ephemeral":true,"emulatorId":null,"sdk":"Android 12 (API 31)","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":true,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[11:30:53] [FlutterDaemon] [Info] ==> [{"id":"29","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[11:30:53] [FlutterDaemon] [Info] <== [{"id":"29","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[11:30:56] [FlutterDaemon] [Info] ==> [{"id":"30","method":"emulator.getEmulators"}]
+[11:30:57] [FlutterDaemon] [Info] <== [{"id":"30","result":[{"id":"apple_ios_simulator","name":"iOS Simulator","category":"mobile","platformType":"ios"}]}]
+[11:31:01] [FlutterDaemon] [Info] ==> [{"id":"31","method":"emulator.getEmulators"}]
+[11:31:01] [FlutterDaemon] [Info] <== [{"id":"31","result":[{"id":"apple_ios_simulator","name":"iOS Simulator","category":"mobile","platformType":"ios"}]}]
+[11:31:02] [FlutterDaemon] [Info] ==> [{"id":"32","method":"emulator.getEmulators"}]
+[11:31:02] [FlutterDaemon] [Info] <== [{"id":"32","result":[{"id":"apple_ios_simulator","name":"iOS Simulator","category":"mobile","platformType":"ios"}]}]
+[11:31:04] [FlutterDaemon] [Info] ==> [{"id":"33","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[11:31:04] [FlutterDaemon] [Info] <== [{"id":"33","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[11:31:07] [FlutterDaemon] [Info] ==> [{"id":"34","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[11:31:07] [FlutterDaemon] [Info] <== [{"id":"34","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[11:31:07] [FlutterDaemon] [Info] ==> [{"id":"35","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[11:31:07] [FlutterDaemon] [Info] <== [{"id":"35","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[11:58:50] [FlutterDaemon] [Info] ==> [{"id":"36","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[11:58:50] [FlutterDaemon] [Info] <== [{"id":"36","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[11:58:50] [FlutterDaemon] [Info] ==> [{"id":"37","method":"emulator.getEmulators"}]
+[11:58:50] [FlutterDaemon] [Info] <== [{"id":"37","result":[{"id":"apple_ios_simulator","name":"iOS Simulator","category":"mobile","platformType":"ios"}]}]
+[11:58:55] [FlutterDaemon] [Info] ==> [{"id":"38","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[11:58:55] [FlutterDaemon] [Info] <== [{"id":"38","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[11:58:55] [FlutterDaemon] [Info] ==> [{"id":"39","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[11:58:55] [FlutterDaemon] [Info] <== [{"id":"39","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[12:03:18] [FlutterDaemon] [Info] ==> [{"id":"40","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[12:03:18] [FlutterDaemon] [Info] <== [{"id":"40","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[12:03:18] [FlutterDaemon] [Info] ==> [{"id":"41","method":"emulator.getEmulators"}]
+[12:03:18] [FlutterDaemon] [Info] <== [{"id":"41","result":[{"id":"apple_ios_simulator","name":"iOS Simulator","category":"mobile","platformType":"ios"}]}]
+[12:03:19] [FlutterDaemon] [Info] ==> [{"id":"42","method":"emulator.getEmulators"}]
+[12:03:19] [FlutterDaemon] [Info] <== [{"id":"42","result":[{"id":"apple_ios_simulator","name":"iOS Simulator","category":"mobile","platformType":"ios"}]}]
+[12:03:23] [FlutterDaemon] [Info] ==> [{"id":"43","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[12:03:23] [FlutterDaemon] [Info] <== [{"id":"43","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[12:03:23] [FlutterDaemon] [Info] ==> [{"id":"44","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[12:03:23] [FlutterDaemon] [Info] <== [{"id":"44","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[12:12:52] [FlutterDaemon] [Info] ==> [{"id":"45","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[12:12:52] [FlutterDaemon] [Info] <== [{"id":"45","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[12:12:52] [FlutterDaemon] [Info] ==> [{"id":"46","method":"emulator.getEmulators"}]
+[12:12:52] [FlutterDaemon] [Info] <== [{"id":"46","result":[{"id":"apple_ios_simulator","name":"iOS Simulator","category":"mobile","platformType":"ios"}]}]
+[12:12:57] [FlutterDaemon] [Info] ==> [{"id":"47","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[12:12:57] [FlutterDaemon] [Info] <== [{"id":"47","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[12:12:57] [FlutterDaemon] [Info] ==> [{"id":"48","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[12:12:57] [FlutterDaemon] [Info] <== [{"id":"48","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[12:17:28] [FlutterDaemon] [Info] ==> [{"id":"49","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[12:17:28] [FlutterDaemon] [Info] <== [{"id":"49","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[12:17:28] [FlutterDaemon] [Info] ==> [{"id":"50","method":"emulator.getEmulators"}]
+[12:17:28] [FlutterDaemon] [Info] <== [{"id":"50","result":[{"id":"apple_ios_simulator","name":"iOS Simulator","category":"mobile","platformType":"ios"}]}]
+[12:17:36] [FlutterDaemon] [Info] ==> [{"id":"51","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[12:17:36] [FlutterDaemon] [Info] <== [{"id":"51","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[12:17:36] [FlutterDaemon] [Info] ==> [{"id":"52","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[12:17:36] [FlutterDaemon] [Info] <== [{"id":"52","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[12:18:04] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"895C3D4C-15C4-4DA7-9A4C-D262C11EF3AF","name":"iPhone Xs","platform":"ios","emulator":true,"category":"mobile","platformType":"ios","ephemeral":true,"emulatorId":"apple_ios_simulator","sdk":"com.apple.CoreSimulator.SimRuntime.iOS-15-5","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":false,"flutterExit":true,"hardwareRendering":false,"startPaused":true}}}]
+[12:18:04] [FlutterDaemon] [Info] ==> [{"id":"53","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/mytaxpmo/Downloads/micare/micare_app"}}]
+[12:18:04] [FlutterDaemon] [Info] <== [{"id":"53","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[12:18:08] [FlutterDaemon] [Info] <== [{"event":"device.removed","params":{"id":"8F966264-D7DF-4CE8-8757-EA2512C88654","name":"iPhone 13 Pro Max","platform":"ios","emulator":true,"category":"mobile","platformType":"ios","ephemeral":true,"emulatorId":"apple_ios_simulator","sdk":"com.apple.CoreSimulator.SimRuntime.iOS-15-5","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":false,"flutterExit":true,"hardwareRendering":false,"startPaused":true}}}]
